@@ -1,0 +1,114 @@
+.grid {
+    margin: 100px 0 0;
+  }
+
+  body {
+    margin: 20px;
+}
+
+
+.sub{
+  padding-right: 10px;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  line-height: normal;
+  margin: 10px;
+  padding: 10px 18px;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  touch-action: manipulation;
+  width: 125px;
+  will-change: transform;
+}
+
+button {
+  margin-top: 12px;
+  width: max-content;
+  padding: 18px;
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.sub:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.sub1{
+  width: 200px;
+}
+
+.button-27 {
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  padding: 16px 24px;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  touch-action: manipulation;
+  width: 20%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  transform: translateY(0);
+}
+
+.reset{
+position: relative;
+left:100px;
+}
+
+.node {
+  width: 25px;
+  height: 25px;
+  outline: 1px solid rgb(175, 216, 248);
+  display: inline-block;
+}
+
+.node-finish {
+  background-color: red;
+}
+
+.node-start {
+  background-color: green;
+}
+
+.start-pt{
+  position: absolute;
+  left:200px;
+margin: 20px;
+text-align: center;
+width: 40%;
+}
+
+.end-pt{
+  width: 40%;
+  margin: 20px;
+  position: relative;
+  left: 700px;
+}
